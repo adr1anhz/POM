@@ -5,7 +5,7 @@ from Tests.test_base import BaseTest
 
 
 class Test_Login(BaseTest):
-
+    
     def test_signup_link_visible(self):
         self.loginPage = LoginPage(self.driver)
         flag = self.loginPage.is_signup_link_exist()
